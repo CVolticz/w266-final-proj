@@ -1,0 +1,7 @@
+Lyric Generation Type,Survey Response,Mean,Confidence Interval
+1 Human,Human Written Percent,70.3,"(62.4, 78.2)"
+1 Human,Machine Generated Percent,25.8,"(17.9, 33.6)"
+2 Baseline,Human Written Percent,41.6,"(35.0, 48.3)"
+2 Baseline,Machine Generated Percent,53.6,"(47.1, 60.2)"
+3 Attention LSTM,Human Written Percent,41.0,"(32.1, 49.9)"
+3 Attention LSTM,Machine Generated Percent,54.2,"(45.2, 63.3)"

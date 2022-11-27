@@ -1,0 +1,1877 @@
+gen_type,Genre,generated_lyric,Survey Response,Lyric Type,Human Written,Machine Generated,I Know This Song,Human Written Percent,Machine Generated Percent
+human,Folk,"Written by Jimmy Webb
+© 1967 Hanbo Music (ASCAP)
+Deep down inside
+I know I still love him
+But he'll never know
+Cause I'll never tell
+I'll confide that I'm thinking of him
+And wishing him well
+I can't walk up to him and say to him
+Baby, what you been doing
+I still love you like I did
+You know, nothing's really changed here
+But being the way I am
+I keep it hid
+Lately I've seen
+That look in his eyes
+That just breaks my heart
+He needs me so
+To lean on at this moment
+Oh why can't I walk up to that old love of mine and say
+Baby, what you been doing
+I still love you like I did
+You know, nothing's really changed here
+But being the way I am
+I keep it hid
+Maybe someday I'll throw off my foolish pride
+This ain't so good
+Watching him die this way
+Cause he's the same guy inside
+Oh why can't I walk up to that old love of mine and say
+Baby, what you been doing
+I still love you like I did
+You know, nothing's really changed here
+But being the way I am
+I keep it hid",Human Written,1 Human,24,8,0,75,25
+human,Folk,"Put your finger in the air, in the air
+Put your finger in the air, in the air
+Put your finger in the air, and hold it right up there
+Put your finger in the air, in the air
+Put your finger on your cheek, on your cheek
+Put your finger on your cheek, on your cheek
+Put your finger on your cheek, leave it there a week
+Put your finger on your cheek, on your cheek
+Put your finger on your nose, on your nose
+Put your finger on your nose, on your nose
+Put your finger on your nose, and see if it grows
+Put your finger on your nose, on your nose
+Put your finger on your ear, on your ear
+Put your finger on your ear, on your ear
+Put your finger on your ear, and leave it there a year
+Put your finger on your ear, on your ear
+Put your finger on your finger, on your finger
+Put your finger on your finger, on your finger
+Put your finger on your finger, leave it there, let it linger
+Put your finger on your finger, on your finger",Human Written,1 Human,7,24,1,21.9,75
+baseline,Folk,"please daddy, ""dont"" get drunk this christmas   i ""dont"" wanna see my mumma cry   
+ And I wish I could be a cowboy 
+ I thought I was a cowboy 
+ I've got a dream to see 
+ I was born in Portland 
+ I got to practice that I was a man 
+ And I hope that I could say 
+ And I don't know what to do 
+ I can't say I don't feel so good 
+ I just wanna be my own 
+ I don't want to hold you down 
+ I'm not sayin' to trick my listening 
+ I'm gonna leave the world, down, very, myself 
+ And the sun",Human Written,2 Baseline,21,10,1,65.6,31.3
+baseline,Folk,"oh, the gentlemen are talking and the midnight moon is on the riverside   they’re drinking 
+ And it was the hottest that he likes to come 
+ And he was a kid in his eyes 
+ His wife he was a tragic 
+ He was a cat with his nose 
+ He was an Air 
+ She was a fool to care 
+ She was a fool to care) 
+ I was a fool to care 
+ I was a fool to care 
+ I was a fool to care 
+ I was a fool to care 
+ I was a fool to care 
+ I was a fool to care 
+ I was a",Human Written,2 Baseline,9,23,0,28.1,71.9
+attention,Folk,"i am on a lonely road and i am traveling 
+ traveling, traveling, traveling 
+ looking lonely, up the wall 
+ Nothings the workers of the canyon 
+ The insulting are all aglow 
+ The one who's coming out of the wind 
+ And the time to keep the wheel 
+ And the morning glory 
+ And the moon swept on the water 
+ It's a mighty fine way to be 
+ And a dust bowl refugee 
+ And the big shepherd boy to the sea 
+ I was a young girl with a bottle in her hand 
+ Iwas the road to the eighteenth of her face 
+ Who could be a sailor 
+ And",Human Written,3 Attention LSTM,22,9,1,68.8,28.1
+attention,Folk,"aurora borealis 
+ the icy sky at night 
+ paddles cut the water 
+ in a white sheet 
+ A bright star 
+ In a pool 
+ Every time I saw my burden 
+ From the bottom of the Northern 
+ I see a little bit 
+ I know you can 
+ I can't do it all 
+ I can see it 
+ I don't feel so good 
+ I don't feel so good 
+ I can't help it if I can't find a thing 
+ Honey, I don't feel like 
+ I don't know if I don't live here 
+ I don't know if you can count 
+ I don't know what I got 
+",Human Written,3 Attention LSTM,15,17,0,46.9,53.1
+human,Folk,"Wow, wow, wow
+Wow, wow, wow
+Wow, wow, wow, wow, wow
+Well, I'm going downtown
+Getting me a jug of brandy
+Give it all to Nancy
+Keep her good and drunk and a-goozy all the time, time, time
+Keep her good and drunk and goozy all the time
+Keep her good and drunk and a-goozy all the time, time, time
+Keep her good and drunk and a-goozy all the time
+Well, I'm going downtown
+Getting me a sack of flour
+Cook it every hour
+Keep my skillet good and greasy when I'm gone, gone, gone
+Keep my skillet good and greasy when I'm gone
+Keep my skillet good and greasy when I'm gone, gone, gone
+Keep my skillet good and greasy when I'm gone
+(Wooh!)
+Wow, wow, wow
+Wow, wow, wow
+Wow, wow, wow, wow, wow
+Wow, wow, wow
+Wow, wow, wow
+Wow, wow, wow, wow, wow
+Maybe if you say so
+I never will work no more
+And I'll hang around your shanty all the time, time, time
+Hang around your shanty all the time
+And I'll hang around your shanty all the time, time, time
+And I'll hang around your shanty all the time
+Wow, wow, wow
+Wow, wow, wow
+Wow, wow, wow, wow, wow
+Wow, wow, wow
+Wow, wow, wow (Wooh!)
+Wow, wow, wow, wow, wow",Human Written,1 Human,12,18,2,37.5,56.3
+attention,Folk,"peaceful valleys, animals and children asking me 
+ tell the story that you told of sailors 
+ And you know that I don't want to know 
+ I can see you laugh 
+ But I know it's not what you do 
+ And I can't get on 
+ I just want to sing this song 
+ And I want to be with you baby 
+ I just want to dance with you 
+ I want to dance with you 
+ Twirl you all your town, to me 
+ I put my hand on the mouth 
+ I said that I could wash my name 
+ I couldn't feel, if I knew you were 
+ I knew",Human Written,3 Attention LSTM,24,7,0,77.4,22.6
+baseline,Folk,"do what ""youve"" never done before   see what ""youve"" never seen   feel what ""youve"" do 
+ They say you got to be a story 
+ You can see it out of this song 
+ You know I'm a little while 
+ I wonder how much I have to do 
+ 
+ I can't see you anymore 
+ But I don't know what I do 
+ I don't want to see you now 
+ I won't have to talk... 
+ Love is only feeling, feeling 
+ Love is only feeling, feeling for you 
+ Love is only feeling, feeling for you 
+ Love is only feeling, feeling for me 
+ Love is only feeling, feeling",Human Written,2 Baseline,11,20,1,34.4,62.5
+human,Jazz,"Black cats creep across my path
+Until I'm almost mad
+I must have 'roused the devil's wrath
+'Cause all my luck is bad
+I make a date for golf and you can bet your life it rains
+I try to give a party and the guy upstairs complains
+I guess I'll go thru life just catchin colds and missin' trains
+Everything happens to me
+I never miss a thing
+I've had the measels and the mumps
+And every time I play an ace
+My partner always trumps
+Guess I'm just a fool who never looks before he jumps
+Everything happens to me
+At first my heart tho't you could break this jinx for me
+That love would turn the trick to end despair
+But know I just can't fool this head that thinks for me
+I've mortgaged all my castles in the air
+I've telegraphed and phoned
+I send an 'Airmail Special' too
+Your answer was 'Goodbye'
+And there was even postage due
+I fell in love just once
+And then it had to be with you
+Everything happens to me",Human Written,1 Human,29,3,0,90.6,9.4
+baseline,Jazz,"i hate to see the ""evening"" sun go down   i hate to see the ""evening"" 
+ And the things is here to tell you 
+ I know that you are mine 
+ I love you 
+ I love you 
+ I love you, sometimes 
+ I want to touch you 
+ I want to know what love feels love 
+ I love you 
+ I love you 
+ I want to love you 
+ Love me so 
+ Let me be 
+ Other dancers I love you 
+ I want to be loved 
+ I'm on my way 
+ I'll be there again 
+ And when my heart beats 
+ And I don't want to",Human Written,2 Baseline,11,16,3,36.7,53.3
+attention,Jazz,"yankee doodle never went to town 
+ i just discovered the story was phoney 
+ let up and stay 
+ Green Dolphin Street supplied the setting 
+ And all the world is bright 
+ And the day is through 
+ The thrill is gone 
+ In the rain 
+ When the bell on 
+ The night is cold 
+ And I know once to do 
+ And I know the world owes 
+ I will go home 
+ And I know where I'm 
+ So I liked the key 
+ I can't find the way that I know 
+ I was a shadowy and I'm on a million 
+ I'm gonna be a fool of love",Human Written,3 Attention LSTM,13,17,2,40.6,53.1
+baseline,Jazz,"my mama done ""tol"" me   when i was in pig tails   my mama done 
+ When you keep me through Man's 
+ I don't know what to do 
+ My heart is riding and always hold 
+ The way I do 
+ Except in love you 
+ I love you 
+ Echo 
+ All I do 
+ What I do ? 
+ Did you be mine 
+ I wanna be with you 
+ I need you to be mine 
+ I love you 
+ I want to do 
+ I want to be with you 
+ I love you so 
+ You don't know what love is 
+ It's got you ain't got no",Human Written,2 Baseline,21,10,1,65.6,31.3
+human,Jazz,"I who never had much I now have a treasure
+A love too great to measure
+I am blessed with happiness
+And I'm done with loneliness
+I who walked all alone
+Not really knowing
+Till now just where I was going
+I am blessed because this day
+You came show me the way
+Till now I was like a grain of sand
+Lost on a lonely beach
+Yes till now I could never understand
+That this was within my reach
+I who cried to the moon see only sunshine
+Because darling you're mine
+I am blessed with wealth untold
+A love worth more than gold",Human Written,1 Human,22,7,3,68.8,21.9
+baseline,Jazz,"our song, we used to call it our song   it helped us say hello once more 
+ Tuned can be the 22nd century 
+ Tomorrow is the time again I know 
+ And I'm gonna lock you 
+ And a love of my own 
+ I wanna see you 
+ I wanna be with you, baby 
+ I wanna be here to you 
+ I want to see you 
+ I wanna be thrilled starting tonight 
+ I wanna be thrilled starting 
+ You got me in the rain 
+ You love me so 
+ Let it snow 
+ Let it snow 
+ Don't ever go 
+ In a pagoda 
+ Don't let the wind",Human Written,2 Baseline,11,19,2,34.4,59.4
+attention,Jazz,"dixie moonlight, swanee shore 
+ headed homebound just once more 
+ to my mississippi delta home 
+ Such a fool 
+ In my dreams, 
+ I say the world I feel 
+ I don't know why 
+ I don't know why I know 
+ Why don't you know what love is 
+ And you can't believe what you can do 
+ You like me baby 
+ Oh oh, baby 
+ Oh oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh baby 
+ If I want you to cook 
+ I want to be wrong 
+ I can't get the one you love 
+ For what I feel 
+ I don't know why",Human Written,3 Attention LSTM,18,11,3,56.3,34.4
+attention,Jazz,"""can't"" get over the feeling 
+ living inside your love 
+ i never want to lose the way you love 
+ Love for sale 
+ Baby, you are the love 
+ Somewhere there's music 
+ How high the moon 
+ Somewhere there's heaven 
+ How high 
+ It's the moon 
+ Somewhere there's heaven 
+ How high 
+ Love is the wind Watermelon gave 
+ Played the sun in the rain 
+ We'll find the sun in the air 
+ We are the moon 
+ The wheel is the day 
+ The rules is the night 
+ The moon is the snootiest 
+ The moon is the laziest 
+ The moon is the laziest 
+ The",Human Written,3 Attention LSTM,15,14,3,46.9,43.8
+human,Jazz,"One day I'll stop breathing
+My heart will stop beating
+I won't see your face again
+This flesh and blood is weak
+Life isn't ours to keep
+Sometime it has to end nd nd ""echo""
+In time even memories fade away
+With time you will learn to forgive and forget
+The mistakes that I've made
+I broke some promises
+Sometimes I lied to you
+One thing will always be true
+I'll never stop loving you
+Fallin' from your grace
+You'll never be replaced
+Lord knows how hard I've tried
+But it just ain't no use
+I thought I could shake you loose
+I'm still torn up inside
+In time even memories fade away
+With time you will learn to forgive and forget
+The mistakes that I've made
+I've broke some promises
+Sometimes I lied to you
+But one thing will always be true
+I'll never stop loving you
+I broke some promises
+Sometimes I lied to you
+But one thing will always be true
+I'll never stop loving you
+No i will never stop lovin' you",Human Written,1 Human,28,2,2,87.5,6.3
+human,Metal,"Voices are calling from somewhere below
+Melting on the eastern shore
+Rain is falling down on me
+Been waiting for eternity...
+I'll be there!
+Freedom for us all!
+And I wonder why, why my heart still yearns
+And I wonder why, why the earth still turns
+And I wonder why, why the sky turns black
+Still I wonder why, but there is no turning back
+For all eternity, for all the world to see
+We're riding high across the wind
+And when the storm begins, to wash away all sins
+We'll find a place where we'll begin
+There's something wrong with the world today
+Only the people that are fighting for...
+...a better place in the world today
+They don't believe that they gone too far
+...they're falling down
+By moonlight there's a way... for rebellion
+Here, the world has gone astray... revolution
+Now, the time has come to pray... hallelujah
+Deep, inside our minds we wait... for rebellion
+Here in dreamland we will not obey the masters
+... and the earth still turns but I'm on my way
+He is on the way, as my heart still yearns
+... I'm on my way, now he is on the way
+And I cry for more
+Yes I'm on my way, now he is on the way
+Gonna find the secret wall
+I have seen the secret dreams
+Of those who know eternity
+And makes me feel like a shadow sneaking in
+In my sleep I'm searching for a way to find
+The open door leading me to where it all begins
+There's nothing wrong with the world today...
+By moonlight there's a way... for rebellion
+Here, the world has gone astray... revolution
+Now, the time has come to pray... hallelujah
+Deep, inside our minds we wait... for rebellion
+Here in dreamland we will not obey the masters
+SOLO: Kai
+Now I'm riding through the air
+Going to where no one dares
+On the way I'll cross the line forevermore
+For once in life, I do not care
+Nothing matters, now I dare
+On the ride I'll cross the line
+Forever to be free
+Have no fear, Rebellion is here!",Human Written,1 Human,25,6,1,78.1,18.8
+baseline,Metal,"it started back in highschool   so cool, king of the scene   you found that that the 
+ Like a virus of a thousand disorder 
+ A soldier to to the 
+ And I can see the eyes 
+ I can see you the 
+ And I can hear you calling 
+ I can feel it all behind 
+ I can hear it calling 
+ I can see the light 
+ The truth of the night 
+ I will be afraid 
+ I will be there, 
+ I will be a prayer 
+ I never want to fall 
+ And I never wanted 
+ And I never wanted 
+ I will be a disgrace 
+",Human Written,2 Baseline,15,16,1,46.9,50
+baseline,Metal,"now the ""contracts"" out   ""theyve"" put the word aloud   ""im"" coming after you   that of a lot of work. 
+ And the you I don't wanna 
+ I can't believe I'm a wild 
+ I can feel the I can see 
+ I will to you 
+ I want to 
+ Write the 
+ 
+ None of us 
+ If I could change 
+ If you could find my way 
+ But I got burned, burned, always 
+ I just can’t tell 
+ 
+ Run, run, run, run, run 
+ 
+ It's the to you 
+ A demanding physical 
+ 
+ 
+ 
+ Don't want know that you 
+ 
+ 
+ 
+ 
+",Human Written,2 Baseline,6,23,2,19.4,74.2
+baseline,Metal,"in my time of dying   i want nobody to mourn   all i want for my parents 
+ I can't get enough to the 
+ 
+ I don't need a sign 
+ I don't give a fuck, don't give a shit 
+ 
+ I'm a a mind of the evils (Yeah, 
+ I want to I was by you media 
+ And I will you I was for myself 
+ And I wish to vengeance 
+ I was I wasn't I was 
+ 
+ I think I knew it up I like it regular. it 
+ I think it I, I need it, need it to make me feel heated 
+ Shake it, can't take",Human Written,2 Baseline,19,12,0,61.3,38.7
+attention,Metal,"we trip the light 
+ firebird flies 
+ burn your inside 
+ given a lesson 
+ The words 
+ 
+ Strictly to 
+ The master of the 
+ 
+ 
+ I was 
+ I can't see you 
+ I can't see you 
+ I can't be the angel of me 
+ I am the damaged 
+ I am the moon in your sky 
+ I am the beast in the 
+ I am the one that be awakened 
+ Terrified the the and burn 
+ I feel the pain 
+ Chew me away 
+ 
+ I can't stop on the inside 
+ I'm your Reaping Stone 
+ I can't take the see 
+ I'm not afraid",Human Written,3 Attention LSTM,10,21,1,31.3,65.6
+human,Metal,"In a foreign field he lay
+Lonely soldier, unknown grave
+On his dying words he prays
+Tell the world of Paschendale
+Relive all that he's been through
+Last communion of his soul
+Rust your bullets with his tears
+Let me tell you about his years
+
+
+Laying low in a blood filled trench
+Killing time 'til my very own death
+On my face I can feel the falling rain
+Never see my friends again
+
+In the smoke, in the mud and lead
+Smell the fear and the feeling of dread
+Soon be time to go over the wall
+Rapid fire and the end of us all
+
+Whistles, shouts and more gun fire
+Lifeless bodies hang on barbed wire
+Battlefield nothing but a bloody tomb
+Be reunited with my dead friends soon
+
+Many soldiers eighteen years
+Drown in mud, no more tears
+Surely a war no-one can win
+Killing time about to begin
+
+Home, far away
+From the war, a chance to live again
+Home, far away
+But the war, no chance to live again
+
+The bodies of ours and our foes
+The sea of death it overflows
+In no man's land, God only knows
+Into jaws of death we go
+
+Crucified as if on a cross
+Allied troops they mourn their loss
+German war propaganda machine
+Such before has never been seen
+
+Swear I heard the angels cry
+Pray to God no more may die
+So that people know the truth
+Tell the tale of Paschendale
+
+
+Cruelty has a human heart
+Every man does play his part
+Terror of the men we kill
+The human heart is hungry still
+
+I stand my ground for the very last time
+Gun is ready as I stand in line
+Nervous wait for the whistle to blow
+Rush of blood and over we go
+
+
+Blood is falling like the rain
+Its crimson cloak unveils again
+The sound of guns can't hide their shame
+And so we die in Paschendale
+
+
+Dodging shrapnel and barbed wire
+Running straight at the cannon fire
+Running blind as I hold my breath
+Say a prayer symphony of death
+
+As we charge the enemy lines
+A burst of fire and we go down
+I choke a cry but no-one hears
+Feel the blood go down my throat
+
+Home, far away
+From the war, a chance to live again
+Home, far away
+But the war, no chance to live again
+
+See my spirit on the wind
+Across the lines, beyond the hill
+Friend and foe will meet again
+Those who died at Paschendale",Human Written,1 Human,26,4,2,81.3,12.5
+human,Metal,"Music and words by Tolkki
+Looking back through time to my childhood days
+I used to have a place where I could escape the reality
+But lately things have been so difficult for me
+Trying to reach for the light in the fall of darkness
+Waiting watching my life I'm wasting my time
+I'm losing grip from life
+Going back to my dreamspace leaving it all behind
+Soon the things will be allright when I get there
+Am I safe in here, nothing left to fear
+I will close my eyes and float away with stream
+Wandering here in this eternal darkness
+No signs of light anywhere I am going in sane
+Now I am leaving this life
+No hope left I want to die",Human Written,1 Human,24,6,1,77.4,19.4
+attention,Metal,"if ""you're"" having trouble with the high school head 
+ ""he's"" giving you the blues 
+ You shoot your your 
+ You know 
+ You better use you 
+ You make a fake 
+ You know you you're 
+ You're goin' out 
+ You gotta get it on your 
+ 
+ 
+ You want it 
+ You got to make it a taste 
+ 
+ 
+ 
+ You don't want to 
+ 
+ 
+ 
+ 
+ And he was 
+ a little bit 
+ 
+ 
+ 
+ 
+ And I know I mean, 
+ 
+ 
+ 
+ 
+ 
+ I mean, I don't know. 
+ 
+ 
+ 
+ I don't know 
+ to 
+ I know",Human Written,3 Attention LSTM,8,24,0,25,75
+attention,Metal,"""i'm"" so fed up with everyone around me 
+ no one seems to care 
+ ""i'm"" to my wheels 
+ Oh I don't know why 
+ And you I don't know 
+ How'd 
+ 
+ I don't know why the do 
+ I don't know why I'm doing 
+ I don't wanna to be a man 
+ I don't know what I'm not 
+ I don't care what you think be 
+ I don't wanna to be the 
+ I don't wanna to be your 
+ I'm so to be with 
+ I wanna be there one you you 
+ And I'm on your way 
+ I'll never be the same 
+ I'm going to crash",Human Written,3 Attention LSTM,9,22,1,28.1,68.8
+baseline,Pop,"you ""shouldve"" been there   ""shouldve"" burst through the door   with that ""baby, ""im"" right 
+ 
+ i got a hole in my head 
+ and i just wanna see you in the mirror 
+ and i know you wanna be my way 
+ i know that i'm alive 
+ i know that i could be 
+ i could be by your side 
+ i could be your girl 
+ i could be your girl 
+ i could be your girl 
+ i could be your girl girl 
+ i could be your girl 
+ 
+ i could be your man 
+ i could have your love 
+ i could have i could have a",Human Written,2 Baseline,11,26,3,27.5,65
+human,Pop,"Please tell me what is taking place
+'Cause I can't seem to find a trace
+Guess it must've got erased somehow
+Probably 'cause I always forget
+Everytime someone tells me their name
+It's always gotta be the same (In my world)
+Never wore cover-up
+Always beat the boys up
+Grew up in a 5,000 population town
+Made my money by cutting grass
+Got fired by a fried chicken ass
+All in a small town
+Napanee
+
+You know I always stay up without sleeping
+And think to myself
+Where do I belong forever?
+In whose arms the time and place?
+
+Can't help it if I space in a daze
+My eyes tune out the other way
+I may switch off and go in a daydream
+In this head my thoughts are deep
+But sometimes I can't even speak
+Would someone be and not pretend?
+I'm off again in my world
+
+I never spend less than an hour
+Washing my hair in the shower
+It always takes five hours to make it straight
+So I'll braid it in a zillion braids
+Though it may take all friggen day
+There's nothing else better to do anyway
+
+When you're all alone in the lands of forever
+Lay under the Milky Way
+On and on, it's getting too late out
+I'm not in love this time, this night
+
+Can't help it if I space in a daze
+My eyes tune out the other way
+I may switch off and go in a daydream
+In this head my thoughts are deep
+But sometimes I can't even speak
+Would someone be and not pretend?
+I'm off again in my world, oh, oh
+
+Take some time
+Mellow out
+Party up
+But don't fall down
+Don't get caught
+Sneak out of the house
+
+Can't help it if I space in a daze
+My eyes tune out the other way
+I may switch off and go in a daydream
+In this head my thoughts are deep
+But sometimes I can't even speak
+Would someone be and not pretend?
+I'm off again in my world
+
+Can't help it if I space in a daze
+My eyes tune out the other way
+I may switch off and go in a daydream
+In this head my thoughts are deep
+But sometimes I can't even speak
+Would someone be and not pretend?
+I'm off again in my world",Human Written,1 Human,30,7,3,75,17.5
+baseline,Pop,"""im"" ""comin"" up, so you better get this party started   ""im"" ""comin"" up, so you can't even know 
+ i don't know where they wanna do 
+ 
+ i don't wanna know know know know know know know 
+ i don't know why 
+ i don't know what 
+ i don't know what to do 
+ i don't know what to do 
+ i don't know what to do 
+ 
+ don't you know i don't know 
+ i don't know what you mean to me 
+ don't you know you don't know 
+ don't you know 
+ don't you know 
+ don't you know 
+ don't you know 
+ don't you know 
+ don't",Human Written,2 Baseline,11,22,7,27.5,55
+attention,Pop,"""let's"" have some fun, this beat is sick 
+ i wanna take a ride on your disco stick 
+ i wanna make love 
+ i wanna love love love love 
+ i wanna love love love love love love 
+ i love the way i love that i love the way 
+ 
+ i love the way you make me feel 
+ i love the way 
+ i love the way i love you 
+ 
+ i love the way you lie 
+ i love the way you make me feel 
+ i love the way you make me feel 
+ i love the way i love the way i love you 
+ i love the",Human Written,3 Attention LSTM,16,16,8,40,40
+attention,Pop,"""i'll"" show you all of the places ""i'm"" dreaming of 
+ ""i'll"" take you to the river 
+ i want you to burn it down 
+ 
+ you know what i love now 
+ 
+ i know you love me 
+ and i love you 
+ but you love me 
+ but i love you so 
+ so i do 
+ but i love you so 
+ and i love you more 
+ 
+ i love you i love you 
+ and i love you girl 
+ i love you 
+ i love you i love you 
+ i love you 
+ i love you 
+ i love you 
+ i love you 
+ i love",Human Written,3 Attention LSTM,13,22,5,32.5,55
+attention,Pop,"shakespeare 
+ mr. 305 
+ this is to them boys that be in the club that i love 
+ that you never had no way to get a little bit 
+ you know i just bounce to the club 
+ you gotta know 
+ who you want to do 
+ you know what i like 
+ 
+ you see what i want you 
+ you know what i like 
+ 
+ i'm a motherfuckin' starboy 
+ i know you like it 
+ you know what it feels like 
+ i'm so into you ayy 
+ i wanna know that you want me to 
+ i want you to know 
+ 
+ you know i got you",Human Written,3 Attention LSTM,31,8,1,77.5,20
+human,Pop,"Las Vegas nights
+Have been calling
+But I wait to see her float down stairs
+There she stands with her eyes full and yearning
+I look
+And I know gotta be there
+Is there another chance
+To bring her closer
+Make her feel I know we could be happy again
+Is there another chance
+To bring her flowers
+So she will only whisper my name
+A chance to make things right for her
+And make my lies seem true
+I'm begging Do
+Don't go down to the station
+Somehow we won't live that long
+Don't go now, desert flower
+Cause you just won't bloom
+And your memories made need more room
+See that mirror there
+Will she look inside
+To see the one I fear standing alone
+And on my phonograph
+Will she put them in
+The songs that only remind her of me
+A chance to make things right for her
+And make my life seem true
+I'm begging Do
+CHORUS
+I step outside The Joint
+To clouds of guilt and fear
+And there are shades of red dancing in view
+Las Vegas nights
+Make me wonder
+How much longer I will be a fool
+A chance to make things right for her
+Make my lies seem true
+I'm begging Do
+CHORUS",Human Written,1 Human,31,9,0,77.5,22.5
+human,Pop,"We touch, I feel a rush; we clutch, it isn't much
+But it's enough to make me wonder what's in store for us
+It's lust, it's torturous, you must be a sorceress
+'Cause you just did the impossible: gained my trust
+Don't play games, it'll be dangerous
+If you fuck me over, ‘cause if I get burnt, I'ma show ya
+What it's like to hurt, ‘cause I been treated like dirt before ya
+And love is evil — spell it backwards, I'll show ya
+Nobody knows me, I'm cold, walk down this road all alone
+It's no one's fault but my own, it's the path I've chosen to go
+Frozen as snow, I show no emotion whatsoever so
+Don't ask me why I have no love for these muh'fuckin' hoes
+Bloodsuckin' succubuses, what the fuck is up with this?
+I've tried in this department, but I ain't had no luck with this
+It sucks, but it's exactly what I thought it would be like
+Tryin' to start over, I got a hole in my heart
+But some kind of emotional roller coaster
+Is something I won't go on
+So you toy with my emotions, so it's over
+It's like an explosion every time I hold ya
+Wasn't joking when I told ya
+You take my breath away, you're a supernova, and I'm a—
+
+I'm a space-bound rocket ship and your heart's the Moon
+And I'm aimin' right at you, right at you
+250,000 miles on a clear night in June
+And I'm aimin' right at you
+Right at you, right at you
+
+I'll do whatever it takes, when I'm with you, I get the shakes
+My body aches when I ain't with you, I have zero strength
+There's no limit on how far I would go, no boundaries, no lengths
+Why do we say that until we get that person that we think's
+Gonna be that one? And then once we get 'em, it's never the same
+You want 'em when they don't want you
+Soon as they do, feelings change
+It's not a contest and I ain't on no conquest for no mate
+I wasn't lookin' when I stumbled on to you, musta been fate
+But so much is at stake, what the fuck does it take?
+Let's cut to the chase 'fore the door shuts in your face
+Promise me if I cave in and break and leave myself open
+That I won't be makin' a mistake, ‘cause I'm a—
+
+I'm a space-bound rocket ship and your heart's the Moon
+And I'm aimin' right at you, right at you
+250,000 miles on a clear night in June
+And I'm aimin' right at you
+Right at you, right at you
+
+So, after a year and six months, it's no longer me that you want
+But I love you so much it hurts, never mistreated you once
+I poured my heart out to you, let down my guard, swear to God
+I blow my brains in your lap, lay here and die in your arms
+Drop to my knees and I'm pleadin', I'm tryna stop you from leavin'
+You won't even listen, so fuck it, I'm tryna stop you from breathin'
+I put both hands on your throat, I sit on top of you squeezin'
+'Til I snap your neck like a Popsicle stick, ain't no possible reason
+I can think of to let you walk up out this house and let you live
+Tears stream down both of my cheeks
+Now I let you go and just give
+And 'fore I put that gun to my temple, I told you this
+
+And I would've done anything for you
+To show you how much I adored you
+But it's over now, it's too late to save our love
+Just promise me you'll think of me
+Every time you look up in the sky and see a star, ‘cause I'm a—
+
+I'm a space-bound rocket ship and your heart's the Moon
+And I'm aimin' right at you, right at you
+250,000 miles on a clear night in June
+And I'm so lost without you
+Without you, without you",Human Written,1 Human,24,10,5,61.5,25.6
+baseline,Pop,"you know, sometimes being on the road is rough   especially loneliness     girl i know you was so sick 
+ you i know you were my protection 
+ you make my heart go down 
+ you make my heart sing 
+ make it rain make it rain 
+ make it rain down low 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+ make it rain 
+",Human Written,2 Baseline,8,30,2,20,75
+human,R&B,"So much betta' I'm for you
+So, so much betta' I'm for you
+
+Tired of being number two
+I can do what she can't do
+So much betta I'm for you
+So, so much betta I'm for you
+So much betta I'm for you
+So, so much betta I'm for you
+
+Don't need another
+I can prove it
+Just let me love you
+Watch me do it
+Believe in this
+Make a wish
+Come see your girl
+I'll change your whole world
+
+Tired of being number two
+I can do what she can't do
+So much betta I'm for you
+So, so much betta I'm for you
+So much betta I'm for you
+So, so much betta I'm for you
+
+Don't need another
+I can prove it
+Just let me love you
+Watch me do it
+Believe in this
+Make a wish
+Come see your girl
+I'll change your whole world
+
+Tired of being number two
+I can do what she can't do
+So much betta I'm for you
+So, so much betta I'm for you
+So much betta I'm for you
+So, so much betta I'm for you, yeah
+
+I'm what you been missing
+(I'm what you been missing)
+You might need to jump on this
+(Come on, jump on this)
+
+Tired of being number two
+I can do what she can't do
+So much betta I'm for you
+So, so much betta I'm for you
+So much betta I'm for you
+So, so much betta I'm for you, yeah
+Tired of being number two
+I can do what she can't do
+So much betta I'm for you
+So, so much betta I'm for you
+So much betta I'm for you
+So, so much betta I'm for you, yeah
+
+I'm what you been missing
+You might need to jump on this
+
+Come on, jump on this",Human Written,1 Human,28,6,1,80,17.1
+baseline,R&B,"like a warrior that fights and wins the battle   i know the taste of victory 
+ BEYONCÉ (V.O.): ...the 
+ Cut to a Black of women or rocking again. 
+ Cut to a rear view of a woman. 
+ BEYONCÉ (V.O.): 
+ BEYONCÉ (V.O.): ...but 
+ Cut to a rear view of a wicker talking. 
+ BEYONCÉ (V.O.): 
+ Cut to BEYONCÉ sitting 
+ Cut to black. the lipstick. 
+ Cut to a closeup of a BEYONCÉ’s waving woman. hair. shot 
+ BEYONCÉ (V.O.): ...and beautiful. 
+ Cut to shot of the camera 
+ Cut to a closeup of the Black of the manor's porch. in the background. of the manor. 
+ BEYONCÉ (V.O.): 
+",Human Written,2 Baseline,16,22,0,42.1,57.9
+baseline,R&B,"""theres"" is a saying, oh love is blind   still ""were"" often told, ""seek and ye my 
+ And I seem to get you eating 
+ Oh, I know you were meant to be 
+ 
+ I know you can make me feel 
+ When you get down with me 
+ The time is on the road 
+ And if you feel the vibe 
+ I don't need no doctor 
+ Can't stand up 
+ I don't need no doctor 
+ I don't need no doctor 
+ I don't want to be the same 
+ And I can't stop without you 
+ I don't wanna be with you 
+ I don't wanna be alone 
+ I",Human Written,2 Baseline,10,24,1,28.6,68.6
+attention,R&B,"here you come to me with your arms open wide 
+ saying, ""i got sweet love 
+ No need to be a miracle 
+ 
+ I want to throw 
+ I want to be with you 
+ I wanna be with you 
+ I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be, I wanna be with myself 
+ I",Human Written,3 Attention LSTM,8,26,1,22.9,74.3
+attention,R&B,"my loving heart would shake 
+ more than the earth could break 
+ if you should be watching the next for me 
+ Don't get mad at me 
+ I know you care to love me 
+ You know I love you 
+ 
+ I want you to know that I love you 
+ I want you to know that... 
+ And I need you 
+ I want you to know 
+ 
+ I want you to know 
+ You're the best thing I do 
+ Is with you 
+ I am the one 
+ I am the one 
+ To the bottom 
+ The sun is the end 
+ And the Lord is 
+ The",Human Written,3 Attention LSTM,24,9,1,70.6,26.5
+baseline,R&B,"can it be i stayed away too long   did i leave your mind when i look at you 
+ 
+ I know you gotta let you know 
+ 
+ I ain't got no money, no 
+ 
+ I don't want no hen 
+ I don't need no doctor 
+ I don't know what to do 
+ 
+ I'm going to hold on and take the day 
+ 
+ I don't want to be a stranger 
+ I don't know what to do 
+ I don't know what to do 
+ I know what to do 
+ I'm gonna do it 
+ I'm gonna make you love me 
+ 
+ I'm gonna make you love me",Human Written,2 Baseline,17,16,2,48.6,45.7
+human,R&B,"It's summertime and the living is easy
+Fish are jumping and the cotton is high
+Your daddy's rich and your mama's good looking
+Hush little baby
+Don't you cry
+Hmmmm....
+One of these mornings you're gonna rise up singing
+You spread your wings and take to the sky
+But until that morning there is nothing can harm you....
+With your daddy and mommy standing by
+They are standing by
+Hmmmm...",Human Written,1 Human,25,6,3,73.5,17.6
+attention,R&B,"you say, your ""party's"" ""jumpin',"" ""everybody's"" ""havin'"" a good time 
+ and you know, ""what's"" ""goin'"" 
+ We gon' be alright 
+ Come on, come on, come on 
+ Come on come on come on come on 
+ Come on come on come on 
+ Come on come on come on come on 
+ Come on come on come on 
+ Come on come on come on come on 
+ Come on come on come on 
+ Come on come on come on 
+ Come on come on 
+ Come on Robbin come on (Come on 
+ Come on Robbin wit' don't you wanna dance 
+ Ladies can't you see my love ? 
+ But I",Human Written,3 Attention LSTM,5,28,2,14.3,80
+human,R&B,"O lord I, I will serve You
+I will serve You everyday
+All my life I, I will praise You
+Hear me calling now I pray
+I will worship You only
+Now I bow before Your throne Lord
+Holy Father hear me calling
+This is Your servant's prayer, Lord
+When I'm sad You make me happy
+Keep me safe from hurt and harm
+When I'm burdened or I'm lonely
+Comfort me within Your arms
+Never leave me, ever keep me
+You I'll follow anywhere Lord
+Holy Father hear me calling
+This is Your servant's prayer Lord
+I give to You my life
+My all I give to Thee
+O Lord receive my offering today
+This is Your servant's prayer
+You gave to me Your love
+Your son at Calvary
+O Lord receive my Offering today
+This is Your servant's prayer",Human Written,1 Human,30,5,0,85.7,14.3
+attention,Rap,"i will (will) 
+ i will (i will) 
+ i will 
+ oh-ooh (oh-ooh) 
+ uh 
+ 
+ I am the to I got 
+ I got to in 
+ I be you you 
+ I can't a 
+ I got my 
+ I feel the 
+ I think I need 
+ But I don't never 
+ I dedicate, I know, I know, I know, 
+ I know I know, I know, I know, I know, I know, I know, I know, 
+ I know, I know, I know, I know, I know, I know, I know, I know, 
+ I know I know I know, I know I know, I know, I know, I know,",Human Written,3 Attention LSTM,5,30,0,14.3,85.7
+baseline,Rap,"""ive"" been ""workin"" this graveshift and i ""aint"" made shit   i wish i could buy 
+ The the be to and the 
+ And I don't you a to 
+ You it you, and 
+ I was a a the 
+ You shit a the 
+ I don't know a 
+ I just got 
+ I fuck I know, 
+ I dedicate, I dedicate 
+ I dedicate, 
+ I dedicate, 
+ I dedicate, (Oh-oh-oh-oh) 
+ (Oh-oh-oh-oh) 
+ (Oh-oh-oh-oh) 
+ (Oh-oh-oh-oh) 
+ (Oh-oh-oh-oh) 
+ (Oh-oh-oh-oh) 
+ (Oh-oh-oh-oh) 
+ Yeah, 
+ 
+ I think in of I don't wanna a 
+ I ain't a I was like 
+ I got I ain't 
+ I dedicate, I know,",Human Written,2 Baseline,16,16,2,47.1,47.1
+attention,Rap,"yeah, yeah 
+ alright 
+ yeah 
+ 
+ smoking rolling reefer up, i adjust the tweakers 
+ I bet a you and I be the 
+ I just a I ain't trippin, you with I ain't 
+ 
+ I got the I got the that I had 
+ I got I got I know, I know, I know, 
+ I know, I know, I know, I know I know, I know, I know, I know, 
+ I know I know, I know, I know, I know, 
+ I know, I know, I know I know, I know, I know, I know, I know, 
+ I know I know, I know, I know I know, I know,",Human Written,3 Attention LSTM,6,26,3,17.1,74.3
+human,Rap,"I'm high, and I'm nauseous
+Oops, I meant obnoxious
+Gang gang gang
+These hoes flockin'
+These niggas watchin'
+Runnin' outta options'
+Gettin' outta pocket
+
+These hoes watchin'
+These niggas flockin'
+Runnin' outta options
+Gettin' outta pocket
+These hoes watchin'
+These niggas flockin'
+Runnin' outta options
+Gettin' outta pocket
+
+I see fake shit almost every day
+Choppa get the beats like Dr. Dre
+Drunk off percocets, and alizé
+I get high, so I feel numb, so it's okay
+My problems is there, but I just run away
+Xanny my umbrella, for a rainy day
+These niggas ain't straight, look like gay parade
+Choppa got a gold tip like Flava Flav
+Member I ain't had no gun, I used the razor blade
+It was still a drill, when I came around, I feel like Major Pain
+Prince up in that double cup, I been sippin' purple rain
+I be throwin' hands and throwin' bands, never throwin' shade
+
+These hoes watchin'
+Runnin' outta options
+Gettin' outta pocket
+These hoes watchin'
+These niggas flockin'
+Runnin' outta options, yuh, one take gang
+
+Runnin' outta options, I was given too many
+I save all my money, I'm not spendin' a penny
+Boy I'm lyin', I just spent 2 thousand up in Supreme
+Over shit I don't wear, I don't fuck with them jeans
+I still bought em, cause I couldn't remember when I couldn't
+Wish a nigga would, I never wish a nigga wouldn't
+Run up on me, no he shouldn't
+Oh no, no he shouldn't
+Pull up on him with that choppa, like oh no he didn't
+Pull up on him, with my roof, you know that shit was missin'
+UFC, he wanna fight, my fist put him in submission
+I don't fuck with pussies, but I still beat up the kitten
+He was totin' a Taurus, nigga I was totin' a Smith and
+
+Watchin', these hoes watchin'
+Runnin' outta options
+Gettin' outta pocket
+These hoes flockin'
+These niggas flockin'
+Runnin' outta options
+Gettin' outta pocket
+
+I made ten racks  but I don't gamble
+I still be telling your hoe ""Hey bae""
+I never had a minimum wage day (Not going through that, I never had to)
+My exotic loud it came with a preamp
+I spend a stack on a room it's only one keycard
+I ride 26s even and sweet (I ride 26s even and)
+I'm fucking these bitches put them to sleep (These bitches but I don't love them)
+She wan' kick it but I'm at  (Kick it)
+Don't run up because I'ma fan fan (Don't do that and I don't even gotta cock it)
+That front row yeah that my fam fam (That's my fam fam)
+Oh damn, hundred racks on me I'm still
+Shopping at Costcos and Sam's (Shopping at CostCos and Sam's)
+Yeah yeah
+Freestyle the whole song, I don't even care
+You unaware that your bitch over here in her underwear
+That VVS on my wrist is lookin' like a Solar Flare
+My choppa like a home run, get that nigga outta here
+Goin', goin', gone
+Transform to a car, like Megatron
+Fuck yo bitch, I glow up in the dark, I feel like Tron
+I choose you, she come and suck my ball like Pokemon
+Call of Duty, with that choppa, watch how all my niggas spawn
+Cal me Juice Osam, walkin' and I'm flyer than that bomb
+
+Uh, huh
+These hoes flockin'
+Runnin' outta options",Human Written,1 Human,29,5,1,82.9,14.3
+attention,Rap,"against an attacker i will boldly take my stand 
+ because my heart will show fear the the 
+ I know what the the a a won't 
+ I got wanna you for I don't to 
+ I don't mean the I could in 
+ I don't I got I was 
+ I dedicate, I know, I know, I know, 
+ I know, I know, I know, I know, I know I know, I know I know, 
+ I know I know, I know, I know, I know I know, I know, I know, 
+ I know I know, I know, I know, I know, I know, I know, I know, 
+ I know I know,",Human Written,3 Attention LSTM,7,27,1,20,77.1
+human,Rap,"Someday I'm gonna be walkin down the streets
+Mindin my own business.. And bam!!
+I'm gon' be shot by some pig who's gonna swear
+That it was a mistake
+I accept that as a part of my destiny!
+
+
+Whattup kid? That's right..
+Yo.. Aiyyo.. Aiyyo..
+
+Aiyyo let my niggas live
+We show and prove get paper, catch me in the caper on shrooms yo
+Let my niggas live
+We real niggas that's God-body, challenge anything, make major moves
+Let my niggas live
+We giants, live off the land lions, post with iron, no pryin rules
+Let my niggas live; aiyyo let my niggas live
+Handle your bid and kill no kids
+
+Millionaire feat, whole family eat; yo, y'all niggas is weak
+Got a bird beak, chirp chirp speak
+Kids that's rich that'll, run in your bitch and by the third week
+Yo mark my word, me and my herb speak
+That's that fire move like Schwinns yo
+Invisible pens that write light, leave blends
+Hit with the jf Kennedy shot
+Smash with the Acapulco rifle got got
+Bolt off, but got clocked
+Legendary here, custom made it, shit bladed, word up
+Design your alphabet, reps get graded
+We in get-high saloons, big bag of shrooms, arm's length
+Home of Allah's ten big rooms
+So what we up in here, modelin large with rigorous moves
+Exotic Gods bust my hammer at frauds
+Call him a live merchant, dressed in all red, that's right y'all
+Gucci jumper X-5, gettin more head
+
+I scream at the mirror, curse, askin God, ""Why me?""
+Run in the black church, gun in my hand, y'all try me
+I'm God-son, son of man, son of Marcus Garvey
+Rastafari irie, Ha-ile Selassie
+Police'll try to break us, but the streets raised us
+It takes more than metal bars, we destined for ours
+I hear murder plans from dopefiends, with elephant hands
+Snots in they nostril, the blocks is hostile
+There's no pots to piss in, Glocks is spittin
+Rocks cookin underground bodies stiffin, cops look at bird shit
+Drop on the window pane, the oxygen is cocaine
+It drove lots of men to die with no name
+I been on boats, nut down throats, pee on bitches who famous
+Pretty dick, puttin stitches in they anus
+I'm the animal that Hugh Heffner created
+The only nigga Sade dated, the most hated, Nas nigga
+
+Roughneck reppin the set, bang 'em twice in the neck
+C. O. Flip and jerk the whole yard rec
+Block vets, pop barettas Glocks and tecs
+You're no threat, gun talk, the language of the project
+Checkin shorty with the +Black Tail+ stance, leapord pants
+Yellin fuck her man, makin killings off her lap dance
+Plus the young guns runnin the slums, funds is major
+Drugged out, got you huntin for crumbs stuck to the razor
+Semi-autos roar in the building hall
+Symptoms of bloodsport, the slugs are still in wall
+Call it a New York state of mind, gotta take mine
+In the daytime, the Jakes'll hit ya forty-one times
+So I live by the sword and obey hood laws
+Make my team click like high heels on wood floors",Human Written,1 Human,30,4,1,85.7,11.4
+human,Rap,"Through hell you know I'm fighting
+Through the yell (Yell), you know I'm fighting
+I've been, yeah-yeah, yeah-yeah, yeah-yeah
+Through the yell, causing hell, yeah-yeah
+Through hell (Hell), you know I'm fighting
+Through the yell (Yell), you know I'm fighting
+I've been, yeah-yeah, yeah-yeah, yeah-yeah
+Through the yell, causing hell, yeah-yeah (I love Trippie Redd)
+
+Roadkill, roadkill, roadkill, roadkill
+Roadkill, roadkill, roadkill, roadkill
+Roadkill, roadkill, roadkill, roadkill
+Roadkill, roadkill, roadkill, roadkill
+
+I've been causing hell, yeah-yeah (Yeah)
+I've been causing hell, yeah-yeah (Ayy)
+I've been on your trail, not hard to smell
+Better find some help, yeah-yeah (I love Trippie Redd)
+You not hard to find, yeah-yeah
+It's hell, bitch, it's summertime, yeah-yeah
+On your ass like a spy, yeah-yeah
+And you'd get slimed
+
+Ooh
+Ooh
+Ooh
+Yeah (I love Trippie Redd)
+(Yeah)
+
+Through hell you know I'm fighting
+Through the yell (Yell), you know I'm fighting
+I've been, yeah-yeah, yeah-yeah, yeah-yeah
+Through the yell, causing hell, yeah-yeah
+Through hell (Hell), you know I'm fighting
+Through the yell (Yell), you know I'm fighting
+I've been, yeah-yeah, yeah-yeah, yeah-yeah (I love Trippie Redd)
+Through the yell, causing hell, yeah-yeah
+
+Roadkill, roadkill, roadkill, roadkill
+Roadkill, roadkill, roadkill, roadkill
+Roadkill, roadkill, roadkill, roadkill
+Roadkill, roadkill, roadkill, roadkill
+
+Through the yell, causing hell, yeah-yeah
+(I love Trippie Redd)",Human Written,1 Human,17,17,1,48.6,48.6
+baseline,Rap,"dip dip dive, to the socialized   issued rhythms that are on the rise   step 
+ You the in you I had 
+ I got you up 
+ I was a I got 
+ I dedicate, trappin', I know, I know, 
+ I dedicate, I know, I know, 
+ I dedicate, I know, I know, 
+ I know, I know, I know, I know, 
+ If I get it I will I wouldn't 
+ I just I got I know, I know, I know, 
+ All I know, is I know, is 
+ 
+ I was I know, I know, I know, 
+ I dedicate, I know, I'm gonna 
+ I got I know, I",Human Written,2 Baseline,9,25,1,25.7,71.4
+baseline,Rap,"i ""dont"" wanna rush   but i already rushed it, so fuck it   i know 
+ I got it in bitch I could up for 
+ You you for me I don't I won't a 
+ I could the the I'm a and I got 
+ But I ain't the I drink have you 
+ I feel have I gotta 
+ 
+ I would I got lyin', I got 
+ I dedicate, I know, I know, I know, I know, I know, 
+ I know, I know, I know, I know, I know, 
+ You I know I know, I was 
+ But I know I'm gonna 
+ 
+ I ain't a I got 
+",Human Written,2 Baseline,17,19,2,44.7,50
+baseline,Rock,"i would rather not go   back to the old house   i would rather not have a very sorted wrote a bit 
+ And I was thinkin' in my skin 
+ And I know this thing that I got 
+ 
+ And now I know that you're not 
+ And I know that I will be alone 
+ I don't want to be alone 
+ I don't want to be a soldier mama, I don't want to die 
+ Said I don't want to be a soldier mama, I don't want to die 
+ Well, I don't want to be a soldier mama, I don't want to die 
+ Oh no, oh no, oh no,",Human Written,2 Baseline,19,14,3,52.8,38.9
+attention,Rock,"you see me 
+ and i see you 
+ tell me what you think ""we're"" gonna do 
+ But I don't want to be alone 
+ 
+ I got to be the one to say 
+ I got to be the one to say 
+ I will be the one to say 
+ 
+ I won't be afraid 
+ I will be the one 
+ 
+ I will be there 
+ I will come back 
+ I will come back 
+ I will come back 
+ I will come back 
+ I will come back 
+ I will come back 
+ I will come back 
+ I will come back 
+ I will come back 
+",Human Written,3 Attention LSTM,15,20,1,41.7,55.6
+human,Rock,"Tracklist1. Intro
+2. Arrival In Nara
+3. Nara
+4. Every Other Freckle
+5. Left Hand Free
+6. Garden Of England
+7. Choice Kingdom
+8. Hunger Of The Pine
+9. Warm Foothills
+10. The Gospel Of John Hurt
+11. Pusher
+12. Bloodflood Pt. II
+13. Leaving Nara
+14. Lovely Day (Bonus Track)",Human Written,1 Human,10,25,1,27.8,69.4
+attention,Rock,"the epidemic from a crystal lie 
+ puts you in super over drive 
+ the methademic flood 
+ ""I found 
+ 
+ Don't let me roll on my body 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't let me down 
+ Don't",Human Written,3 Attention LSTM,6,29,1,16.7,80.6
+human,Rock,"Simon is twenty in half an hour
+So this is for him:
+Those down days
+When you felt so young
+And everything seemed
+You saw the people
+Around you
+Getting old
+You wake up
+The teenage yearn is
+Gone for you
+It happens to others
+It happens all the time
+Happy birthday to you
+Happy birthday to you
+Happy birthday to you
+The candles on the cake
+Waiting to be blown
+Wish I was
+An other...
+Please give me
+An other...",Human Written,1 Human,26,7,3,72.2,19.4
+baseline,Rock,"you see me crying   ""dont"" let it get you down   you see me crying 
+ 
+ 
+ 
+ To the spirit of the golden sun 
+ And the Pacific is the problem 
+ And the clouds and the whites 
+ And the clouds are falling 
+ And the whisper of the world 
+ Is the end of the world 
+ And the air are scrambled, 
+ 
+ And the world is shining bright 
+ And you can feel the ones you ride 
+ The damage is 
+ The only way you are 
+ The only way you never do 
+ The way you left me 
+ And I can't think about you 
+ And",Human Written,2 Baseline,24,11,1,66.7,30.6
+human,Rock,"If time itself was his demeanor
+There'd be no sunlight or a glimmer
+Of sunlight landin' on the street
+Sunsuit girls must be discreet
+
+Sunsuit girls must be discreet
+Nursing their fathers locked inside
+They masqueraded as his bride
+
+I might like you better if we slept together
+I might like you better if we slept together
+I might like you better if we slept together
+But there's somethin' in your eyes
+That says maybe that's never
+Never say never
+
+Slumped by the courthouse
+With windburned skin
+That man could give a fuck
+About the grin on your face
+As you walk by, randy as a goat
+He's sleepin' on papers
+When he'd be warm in your coat
+
+I might like you better if we slept together
+I might like you better if we slept together
+I might like you better if we slept together
+But there's somethin' in your eyes
+That says maybe that's never
+Never say never
+
+There's no easy way to lose your sight
+On the street, on the stairs
+Who's on your flight
+Old couple walks by, as ugly as sin
+But he's got her and she's got him
+
+I might like you better if we slept together
+I might like you better if we slept together
+I might like you better if we slept together
+But there's somethin' in your eyes
+That says maybe that's never
+Never say never
+
+Never say never
+Never say never
+Never say never
+Never say never",Human Written,1 Human,26,9,1,72.2,25
+attention,Rock,"sometimes, ""there's"" nothing to feel 
+ sometimes, ""there's"" nothing to hold 
+ sometimes, ""there's"" no time to get away 
+ And I know that I could never leave 
+ 
+ And I can see you on the other side 
+ It's not a part of me 
+ In the wastelands of the Odyssey 
+ 
+ I still hear the dark amount 
+ I can see the nation 
+ I can see the magazines 
+ I can see out 
+ I can see 
+ I can hear 
+ I am the one you love 
+ I can hear you singing 
+ I can hear, I can hear 
+ And I can hear, I can hear 
+ 
+",Human Written,3 Attention LSTM,25,11,0,69.4,30.6
+baseline,Rock,"as i am strolling down the garden path   i saw a flower glowing in the woods and the Thai 
+ We are the orphans in the wrong street 
+ 
+ I will come back 
+ So come and come back 
+ Not gone far enough 
+ 
+ The dark seeks 
+ 
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh 
+ And I will not break it 
+ 
+ Don't you know how you really want me ? 
+ You got me shaking, now 
+ You got me so I don't know what I need 
+ I don't know now what I want 
+ To know what you want 
+ I know",Human Written,2 Baseline,20,14,2,55.6,38.9
+attention,Soul,"separate ways 
+ ""there's"" one that goes and one that stays 
+ but they will meet 
+ I need you to know 
+ Will you understand, 
+ You know I will 
+ I know that I am 
+ 
+ I believe in you 
+ 
+ I believe 
+ I believe in music 
+ I believe in music 
+ I believe in love 
+ I believe in love 
+ I believe in love 
+ I believe in love, love, love, love, love, oh, oh 
+ I believe in love, I know it's true 
+ I love you, I love you, I love you 
+ And I love you too much 
+ I love you, I love you,",Human Written,3 Attention LSTM,7,22,0,24.1,75.9
+attention,Soul,"through the mirror of my mind 
+ time after time 
+ i see reflections of you 
+ I'm waiting for you to see 
+ I'm ready to ride, to you 
+ 
+ I can't go back to you 
+ I can't tell you that I'll be around 
+ I will be only you 
+ If I find my love to you 
+ I will be a fool for you 
+ 
+ I will be your man 
+ I'll be your shelter I will be your man 
+ Destiny, this world is a man's world 
+ Without a love letter, a river 
+ This is a man's world 
+ For a love that's real 
+ And I",Human Written,3 Attention LSTM,19,8,3,63.3,26.7
+attention,Soul,"clap your hands, ""y'all"" 
+ ""it's"" alright (turn me up, turn me up, turn me up) 
+ Keep on rockin' me right here 
+ Keep on rollin', me on) 
+ Keep on rollin', rollin', rollin' on) 
+ 
+ Now I'm keeping on the line 
+ On the top getting down, yeah 
+ 
+ Standing on down, ease on down 
+ (The big payback) 
+ Shake it like it is 
+ 
+ 
+ Ain't it funky now ? 
+ Ain't it funky now ? 
+ Ain't it funky now ? 
+ Ain't it funky now ? 
+ Ain't it funky now ? 
+ Ain't it funky now ? 
+ Ain't it funky now ? 
+ Ain't it",Human Written,3 Attention LSTM,12,17,2,38.7,54.8
+baseline,Soul,"""shes"" a super lady   she is too much   wish i could make her mine 
+ 
+ You know I love you so 
+ 
+ I know it's true 
+ I can make it in my shoes 
+ And I can tell 
+ I don't need to go 
+ I don't want to be 
+ I don't wanna be with you 
+ 
+ I don't want to be with you 
+ I don't want to be your man 
+ I don't know what I do 
+ I don't know what to do 
+ I don't know what to do 
+ They don't know what to do 
+ Love don't need me 
+ Don't have to",Human Written,2 Baseline,19,11,1,61.3,35.5
+baseline,Soul,"""aint"" nobody   no...   going to turn me around no more   no...   ""aint"" 
+ 
+ Oh, ain't no good till you give it away 
+ I don't wanna lose you 
+ I don't wanna lose you 
+ I don't wanna lose you 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I don't wanna do it 
+ I'm gonna work out",Human Written,2 Baseline,5,25,0,16.7,83.3
+human,Soul,"Wash me!
+I don't know why I love you like I do
+With all the changes I keep going through
+Lost all my money and my happiness
+And I haven't had the worst of it yet
+I wanna know, tell me, tell me why
+I love it still
+Take me to the river
+Wash me down
+Yeah, drop me in the water
+Back to my fishing ground
+And I don't know why they treat me so bad
+Think of all the good things that I've never had
+Love is an ocean I won't forget
+My sweet sixteen I will never regret
+I wanna know, won't you tell me, tell me why
+I love it still
+C'mon, river
+Wet me down
+Yeah, dip me in the water
+Back to my fishing ground
+And hold me, squeeze me
+Just love me, and tease me
+Till I can't, till I can't
+Take it no more
+I don't know why you treat me so bad
+Think of all the good things that I've never had
+Love's an ocean I won't forget
+My sweet sixteen I will never regret
+I wanna know, you tell me, tell me why
+I love it still
+Take me to the river
+And dip me in the water
+Take me to the river
+Drop me in the water
+Take me to the river
+Drop me in the water
+Yeah take me to the water
+My fishing ground
+Wash me, wet me
+Squeeze me, and tease me
+Washing me down",Human Written,1 Human,23,7,1,74.2,22.6
+human,Soul,"(spoken)
+I've been so wrong, so many times. Now you know what
+I'm talkin' about. We've all been wrong a time in our life
+And we all make mistakes sometimes of leaving what's good for us
+I made that mistake, now I'm tryin' to get back to my baby
+This runnin' round, sure 'nough, is killin' me
+Let me, let me in
+Let me in, let me in
+Let me in, let me in
+Let me in, let me in, let me in, let me in, let me ease on in
+Look into my eyes
+Can't you see I got to come on in
+I ain't lyin', and I ain't smilin' 'bout it, baby
+Open the door or I'm bustin' in
+Because this runnin' around
+Sure 'nough, sure 'nough, is killin' me
+Let me in, it's killin' me, baby
+I got ta come on in
+Let me in, baby, please let me in
+I got ta come on in, honey
+Open the door
+Open the door
+Let me in, let me in, let me in, let me ease on in
+Mama, mama, got to come in
+Open the door
+I can't stand this cold
+Let me in this house
+I'm tired of this runnin' around
+Tired of being, tired of being all alone
+Standing out here and walkin' with, walkin' with",Human Written,1 Human,19,12,0,61.3,38.7
+human,Soul,"Magdalena sits in her chair speaking of the mass
+She talks in slicing splinters, she laughs like breaking glass
+She says that she would have me spirit her away
+Stealing all my images 'til there's nothing left to say
+
+Oh, Magdalena
+Nothing like the saint you are
+Your love is like a razor
+My heart is just a-scar
+Oh, Magdalena
+Nothing like the saint you are
+
+Magdalena lying there could make a dancer stumble
+Make a preacher bite his tongue and leave him with a mumble
+And if you think I'm crazy, babe, or that I'm funning you
+Just pay your dues and lose your blues
+When Maggie is kissing you
+ (2x)",Human Written,1 Human,28,3,0,90.3,9.7
+baseline,Soul,"always and forever   each moment with you, yeah   is just like a dream to you 
+ And I can't let you go, oh 
+ I love you 
+ I won't let you go 
+ I say it 'cause I love you 
+ 
+ I love you 
+ Sunny, you love me so 
+ I love you madly 
+ I love you, I love you, I love you 
+ And I'd see you through 
+ And I can't let you go 
+ Can't you see you're gonna do me 
+ 
+ 
+ I need somebody 
+ And I need you 
+ I need you 
+ I need you 
+ I need you 
+ I need",Human Written,2 Baseline,13,16,2,41.9,51.6

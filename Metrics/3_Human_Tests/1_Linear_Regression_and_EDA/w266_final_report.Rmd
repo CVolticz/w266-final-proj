@@ -1,0 +1,358 @@
+---
+title: "w266_final_report"
+author: "Emily Fernandes"
+date: "11/27/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load packages, warning=FALSE, message=FALSE}
+library(data.table)
+library(sandwich)
+library(lmtest)
+library(ggplot2)
+library(patchwork)
+library(foreign)
+library(pwr)
+library(stargazer)
+library(data.table)
+library(plotly) 
+
+inline_reference <- "r inline_reference"
+```
+
+## R Markdown
+
+
+```{r}
+de <- read.csv(file = 'Human Survey.csv')
+
+p1 <- ggplot(de, aes(fill=Genre, y=Human.Written, x=Lyric.Type)) + 
+    geom_bar(stat="identity") 
+p2 <- ggplot(de, aes(fill=Genre, y=Machine.Generated, x=Lyric.Type)) + 
+    geom_bar(stat="identity") + ggtitle(label='Survey Results By Genre') 
+
+fig <- subplot(p1, p2, nrows=2) 
+fig
+```
+
+```{r}
+de <- read.csv(file = 'Human Survey Edited.csv')
+i = 0 
+for (g in c('Folk','Jazz','Metal','Pop','R&B','Rap','Rock','Soul') ) {
+i = i+1
+di=de[ which(de$Genre==g), ]
+p0 <- ggplot(di, aes(fill=Survey.Response, y=Number.of.Votes, x=Lyric.Type)) + 
+    geom_bar(stat="identity") 
+print(p0)
+}
+
+```
+
+
+
+
+
+```{r}
+de <- read.csv(file = 'Human Survey Edited.csv')
+i = 0 
+for (g in c('1 Human','2 Baseline','3 Attention LSTM') ) {
+i = i+1
+di=de[ which(de$Lyric.Type==g), ]
+p0 <- ggplot(di, aes(fill=Survey.Response, y=Number.of.Votes, x=Lyric.Type)) + 
+    geom_bar(stat="identity",position = 'stack') 
+if (i==1){p1<-p0}
+else if (i==2){p2<-p0}
+else if (i==3){p3<-p0}
+print(p0)
+}
+
+
+fig <- subplot(p1,p2,p3, nrows=3)
+#print(fig)
+
+fig <- ggplot(de, aes(fill=Survey.Response, y=Number.of.Votes, x=Lyric.Type)) + 
+    geom_bar(stat="identity",position = 'stack') 
+print(fig)
+```
+
+```{r}
+de <- read.csv(file = 'Human Survey Edited.csv')
+fig <- ggplot(de, aes(fill=Survey.Response, y=Number.of.Votes, x=Lyric.Type)) + 
+    geom_bar(stat="identity",position = 'stack')+ggtitle(label = 'Survey Results')
+print(fig)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+d <- read.csv(file = 'Human Survey.csv')
+mod_ai      <- lm(Machine.Generated ~ Lyric.Type, data=d)
+mod_ai_p    <- lm(Machine.Generated.Percent ~ Lyric.Type, data=d)
+
+robust_se_a <- sqrt(diag(vcovHC(mod_ai, type = "HC1")))
+robust_se_p <- sqrt(diag(vcovHC(mod_ai_p, type = "HC1")))
+
+stargazer(mod_ai,mod_ai_p, type = "text",
+          se = list(robust_se_a,robust_se_p),
+          column.labels = c('Machine Generated Votes','Machine Generated Percent'))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+for (g in c('Folk','Jazz','Metal','Pop','R&B','Rap','Rock','Soul') ) {
+di=d[ which(d$genre==g), ]
+mod_human <- lm(Human.Written ~ gen_type_new , data=di)
+mod_ai    <- lm(Machine.Generated ~ gen_type_new , data=di)
+mod_acc   <- lm(Accuracy ~ gen_type_new , data=di)
+
+robust_se_h <- sqrt(diag(vcovHC(mod_human, type = "HC1")))
+robust_se_i <- sqrt(diag(vcovHC(mod_ai, type = "HC1")))
+robust_se_a <- sqrt(diag(vcovHC(mod_acc, type = "HC1")))
+
+stargazer(mod_human,mod_ai,mod_acc, type = "text",
+          se = list(robust_se_h,robust_se_i,robust_se_a),
+          column.labels = c(paste(g,' Human Written'),
+                            paste(g,' Machine Generated'),
+                            paste(g,' Accuracy')))
+} 
+```
+
+
+```{r}
+de <- read.csv(file = 'Human Survey Edited.csv')
+print(de)
+
+
+
+for (g in c('Folk','Jazz','Metal','Pop','R&B','Rap','Rock','Soul') ) {
+di=de[ which(de$Genre==g), ]
+
+fig <- ggplot(di, aes(fill=Survey.Response, y=Number.of.Votes, x=Lyric.Type)) + 
+       geom_bar(stat="identity",position = 'stack')+
+       ggtitle(label = paste('Survey Results',g))
+print(fig)
+} 
+```
+
+
+
+
+
+
+
+```{r hajj randomization inference, include=TRUE}
+baseline_ate = mod_acc$coefficients[2]
+N=length(d$Accuracy)
+
+#Defines Function to calculate ATE from dataframe
+calc_ATE <- function(d) { 
+  mean_t = mean(d$Accuracy[d$gen_type_new=='2_baseline'])
+  mean_c = mean(d$Accuracy[d$gen_type_new=='1_human'])
+  
+  ate <- mean_t - mean_c 
+  return(ate)
+}
+#Defines Function to that randomizes the data n times 
+#and calculates all those ATEs
+run_RI <- function(n, d) { 
+  d_i = d
+  distribution_n <- vector( "numeric" , n )
+  
+  steps = seq(1, n, by=1)
+  for (i in steps )
+  {
+  type_i<- rep(c('1_human', '2_baseline','3_attention'), each = ceiling(N/3))
+  type_i<- sample(type_i,N)
+
+  d_i$gen_type_new = type_i
+  ATE_i = calc_ATE(d_i)
+  distribution_n[i]=ATE_i 
+  }
+  return(distribution_n)
+}
+
+#Run Random Inference
+n = 10000
+job_ri_distribution <- run_RI(n, d)
+#Plot Histogram of RI(n=10,000) with our actual experiment's ATE
+hist(job_ri_distribution, col="lightblue")
+abline(v = baseline_ate, col="black", lwd=3, lty=2)
+```
+```{r hajj randomization inference, include=TRUE}
+baseline_ate = mod_acc$coefficients[2]
+N=length(d$Human.Written)
+
+#Defines Function to calculate ATE from dataframe
+calc_ATE <- function(d) { 
+  mean_t = mean(d$Human.Written[d$gen_type_new=='2_baseline'])
+  mean_c = mean(d$Human.Written[d$gen_type_new=='1_human'])
+  
+  ate <- mean_t - mean_c 
+  return(ate)
+}
+#Defines Function to that randomizes the data n times 
+#and calculates all those ATEs
+run_RI <- function(n, d) { 
+  d_i = d
+  distribution_n <- vector( "numeric" , n )
+  
+  steps = seq(1, n, by=1)
+  for (i in steps )
+  {
+  type_i<- rep(c('1_human', '2_baseline','3_attention'), each = ceiling(N/3))
+  type_i<- sample(type_i,N)
+
+  d_i$gen_type_new = type_i
+  ATE_i = calc_ATE(d_i)
+  distribution_n[i]=ATE_i 
+  }
+  return(distribution_n)
+}
+
+#Run Random Inference
+n = 10000
+job_ri_distribution <- run_RI(n, d)
+#Plot Histogram of RI(n=10,000) with our actual experiment's ATE
+hist(job_ri_distribution, col="lightblue")
+abline(v = baseline_ate, col="black", lwd=3, lty=2)
+abline(v = attention_ate, col="red", lwd=3, lty=2)
+```
+```{r hajj randomization inference, include=TRUE}
+baseline_ate = mod_acc$coefficients[3]
+N=length(d$Accuracy)
+
+#Defines Function to calculate ATE from dataframe
+calc_ATE <- function(d) { 
+  mean_t = mean(d$Accuracy[d$gen_type_new=='3_attention'])
+  mean_c = mean(d$Accuracy[d$gen_type_new=='1_human'])
+  
+  ate <- mean_t - mean_c 
+  return(ate)
+}
+#Defines Function to that randomizes the data n times 
+#and calculates all those ATEs
+run_RI <- function(n, d) { 
+  d_i = d
+  distribution_n <- vector( "numeric" , n )
+  
+  steps = seq(1, n, by=1)
+  for (i in steps )
+  {
+  type_i<- rep(c('1_human', '2_baseline','3_attention'), each = ceiling(N/3))
+  type_i<- sample(type_i,N)
+
+  d_i$gen_type_new = type_i
+  ATE_i = calc_ATE(d_i)
+  distribution_n[i]=ATE_i 
+  }
+  return(distribution_n)
+}
+
+#Run Random Inference
+n = 10000
+job_ri_distribution <- run_RI(n, d)
+#Plot Histogram of RI(n=10,000) with our actual experiment's ATE
+hist(job_ri_distribution, col="lightblue")
+abline(v = baseline_ate, col="black", lwd=3, lty=2)
+```
+```{r hajj randomization inference, include=TRUE}
+baseline_ate = mod_acc$coefficients[3]
+N=length(d$Human.Written)
+
+#Defines Function to calculate ATE from dataframe
+calc_ATE <- function(d) { 
+  mean_t = mean(d$Human.Written[d$gen_type_new=='3_attention'])
+  mean_c = mean(d$Human.Written[d$gen_type_new=='1_human'])
+  
+  ate <- mean_t - mean_c 
+  return(ate)
+}
+#Defines Function to that randomizes the data n times 
+#and calculates all those ATEs
+run_RI <- function(n, d) { 
+  d_i = d
+  distribution_n <- vector( "numeric" , n )
+  
+  steps = seq(1, n, by=1)
+  for (i in steps )
+  {
+  type_i<- rep(c('1_human', '2_baseline','3_attention'), each = ceiling(N/3))
+  type_i<- sample(type_i,N)
+
+  d_i$gen_type_new = type_i
+  ATE_i = calc_ATE(d_i)
+  distribution_n[i]=ATE_i 
+  }
+  return(distribution_n)
+}
+
+#Run Random Inference
+n = 10000
+job_ri_distribution <- run_RI(n, d)
+#Plot Histogram of RI(n=10,000) with our actual experiment's ATE
+hist(job_ri_distribution, col="lightblue")
+abline(v = baseline_ate, col="black", lwd=3, lty=2)
+abline(v = attention_ate, col="red", lwd=3, lty=2)
+```
