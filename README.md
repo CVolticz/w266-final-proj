@@ -2,16 +2,16 @@
 
 Codebase for MIDS W266 Final Project
 
-Authors:
-Ken Trinh
-Emily Fernandes
-Joe Ritter
+## Authors:
+- Ken Trinh
+- Emily Fernandes
+- Joe Ritter
 
-Instructor:
-Peter Grabowski
+## Instructor:
+- Peter Grabowski
  
-Semester:
+## Semester:
 Fall 2022
 
-Section:
+## Section:
 Monday Tuesday 2:00-3:30 PST
