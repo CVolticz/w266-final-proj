@@ -1,6 +1,6 @@
 # W266 Final Project: Attending to Lyrics
 
-Codebase for MIDS W266 Final Project
+Codebase and report for MIDS W266 Final Project
 
 ## Authors:
 - Ken Trinh
